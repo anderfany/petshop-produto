@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+#app:
+#  swagger:
+#    enable: true
+
+logging:
+  level:
+    root: info
+    com.zaxxer.hikari: debug
+    org.springframework.web.servlet.mvc.support: info
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate.format_sql: true
