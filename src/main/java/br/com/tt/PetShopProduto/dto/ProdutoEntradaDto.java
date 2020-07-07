@@ -27,7 +27,7 @@ public class ProdutoEntradaDto {
 
     //Metodo toEntity
     public Produto toEntity() {
-        return new Produto(null, descricao, valor);
+        return new Produto(descricao, valor);
     }
 
 }
