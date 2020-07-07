@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ProdutoRepository extends
-        CrudRepository<Produto, Long> {
-//        JpaRepository<Produto, Long>,
+//        CrudRepository<Produto, Long> {
+        JpaRepository<Produto, Long> {
 //        PagingAndSortingRepository<Produto, Long> {
 }

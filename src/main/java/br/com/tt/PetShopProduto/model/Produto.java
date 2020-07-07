@@ -27,8 +27,10 @@ public class Produto {
     }
 
     //Construtor
-    public Produto(ProdutoEntradaDto produto) {
-        this.criarProduto(produto);
+    public Produto(Long id, String descricao, BigDecimal valor) {
+        this.id = id;
+        this.descricao = descricao;
+        this.valor = valor;
     }
 
     //Getters
